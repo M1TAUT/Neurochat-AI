@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# PyCharm / JetBrains
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Database
+*.sqlite3
+
+# Secrets and environment files
+.env
+.env.*
+secrets.yml
+
+# Static / build artifacts
+staticfiles/
+assets/
+node_modules/
+
+# Templates and local files
+templates/__pycache__/
+
+# System files
+*.bak
+*.swp
+
+# README or project files created during development
+*.local
+
+# Ignore any local config overrides
+local_settings.py
+
+# Ignore uploads and media
+media/
+
+# Ignore byte-compiled and C extensions
+*.so
+
+# Optional: ignore Docker files or build artifacts if produced
+docker-compose.override.yml
+
+# End of file
